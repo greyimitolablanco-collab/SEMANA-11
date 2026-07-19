@@ -1,0 +1,21 @@
+Entidad 1: Reporte
+Campos principales:
+id (Identificador único)
+categoria (Ej. Infraestructura, Seguridad, Vialidad)
+sector (Barrio o zona comunitaria)
+descripcion (Detalle del problema reportado)
+estado (Ej. Pendiente, En revisión, Resuelto)
+fecha_creacion (Día y hora del registro)
+Propósito:
+Almacenar de forma estructurada los problemas o incidencias que los ciudadanos reportan en el sistema, sirviendo como la base de datos central para la veeduría.
+
+Entidad 2: Historial_Estado
+Campos principales:
+id (Identificador único)
+reporte_id (Relación con el Reporte que se está actualizando)
+estado_anterior (El estado en el que estaba el reporte)
+estado_nuevo (El nuevo estado asignado)
+comentario (Nota o acta del veedor sobre el avance o solución)
+fecha_cambio (Día y hora de la actualización)
+Propósito:
+Registrar de manera cronológica cada cambio y avance que sufre un reporte, permitiendo que la comunidad audite y haga un seguimiento transparente de la gestión de las autoridades.

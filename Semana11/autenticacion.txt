@@ -1,0 +1,7 @@
+El login es el proceso de autenticación que identifica a
+ un usuario mediante sus credenciales para darle acceso a la plataforma.
+  Ciertas rutas deben protegerse para asegurar que solo los usuarios autorizados o 
+  administradores realicen acciones críticas o accedan a zonas restringidas. Por seguridad, nunca debe 
+  exponerse públicamente información sensible 
+como contraseñas, documentos de identidad, datos 
+de contacto personales o registros financieros.

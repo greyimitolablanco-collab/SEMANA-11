@@ -1,0 +1,8 @@
+1. Sección para Crear una Nueva Causa
+Campos de entrada: Título, Descripción y Fecha.
+Acción: Botón para guardar y publicar la causa.
+2. Lista de Causas Disponibles
+Un espacio limpio donde se muestran todas las causas publicadas para que cualquiera pueda leerlas de forma anónima.
+3. Elementos de cada Causa
+Contador: Muestra de forma visible cuántas personas la han apoyado.
+Botón: Opción directa de "Apoyar" que suma un voto al contador al hacer clic.
